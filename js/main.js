@@ -1,5 +1,3 @@
-
-
 $('#clean-button').on('click', function() {
 
 	function CleanArray(arr) {
@@ -22,7 +20,6 @@ $('#clean-button').on('click', function() {
 	$('#text1').val(text1.join('\n'));
 	$('#text2').val(text2.join('\n'));
 });
-
 	
 $('#compare-button').on('click', function() {
 
@@ -70,8 +67,6 @@ $('#compare-button').on('click', function() {
 
 	$('#text1section').html(template({missing: missing1}));
 	$('#text2section').html(template({missing: missing2}));
-
-	
 });
 
 
